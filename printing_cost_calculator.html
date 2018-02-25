@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Radoslaw Jaros page</title>
+	</head>
+	<body>
+		<form>
+			<p>General</p>
+			<label>Price</label>
+			<input type="text" name="general_currency" value="PLN">
+			<p>Filament attributes</p>
+			<label>Weight</label>
+			<input type="text" name="filament_weight">
+			<label>Price</label>
+			<input type="text" name="filament_price">
+			<label>Density/Length</label>
+			<input type="text" name="filament_dens_len" value="1.23">
+			<select>
+				<option value="density" selected="selected">g/cm<sup>3</sup></option>
+				<option value="length">m</option>
+			</select>
+			<p>Printer attributes</p>
+			<label>Power</label>
+			<input type="text" name="printer_power" value="175">
+			<label>Price of kWh</label>
+			<input type="text" name="printer_kwh_price" value="0.6">
+			<label>Price of one hour printer working (amortization)</label>
+			<input type="text" name="printer_amortization_price" value="5">
+			<label>*ETA correction</label>
+			<input type="text" name="printer_eta_correction" value="1.15">
+		
+			<p>Printing result</p>
+			<label>Energy price</label>
+			<input type="text" name="printing_result_energy_price">
+			<label>Filament price</label>
+			<input type="text" name="printing_result_filament_price">
+			<label>Printing price (amortization)</label>
+			<input type="text" name="printing_result_amortization_price">
+			<hr>
+			<label>Amount</label>
+			<input type="text" name="printing_result_amount">
+		</form>
+	</body>
+</html>
